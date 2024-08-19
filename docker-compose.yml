@@ -1,0 +1,18 @@
+version: '3'
+services:
+  csv-uploader-container:
+    image: csv-uploader
+    ports:
+      - "3000:3000"
+    networks:
+      - my-network
+
+  gnu-cobol-container:
+    image: gnu-cobol-image
+    depends_on:
+      - csv-uploader-container
+    networks:
+      - my-network
+
+networks:
+  my-network:
