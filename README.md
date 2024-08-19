@@ -100,6 +100,7 @@ The terminal output should look like this:
 In the CSV Uploader container, you can verify the uploaded CSV file is saved in the `app/uploads` folder.
 
 ![File Upload Check](screenshot/screenshot4.png)
+![File Upload Check](screenshot/screenshot5.png)
 
 ---
 
